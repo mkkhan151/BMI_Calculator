@@ -7,46 +7,14 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:orientation="vertical"
-    android:background="@color/white"
     android:gravity="center"
-    android:id="@+id/ll_main">
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="@string/hint_wt"
-        android:id="@+id/edtWeight"
-        android:inputType="number"/>
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="@string/hint_htF"
-        android:id="@+id/edtHeightFT"
-        android:inputType="number"/>
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="@string/hint_htI"
-        android:id="@+id/edtHeightIN"
-        android:inputType="number"/>
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/btn_text"
-        android:id="@+id/btnCalculate"
-        android:layout_marginTop="11dp"/>
+    android:id="@+id/llMain">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:id="@+id/txtResult"
-        android:textStyle="bold"
-        android:textSize="21sp"/>
-
+        android:text="@string/btn_text"
+        android:textSize="30sp"
+        />
 
 </LinearLayout>

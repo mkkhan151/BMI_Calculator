@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
-    <color name="yellow">#FFEB3B</color>
-    <color name="red">#D8281B</color>
-    <color name="green">#36A13A</color>
+    <color name="black">#1D1B20</color>
+    <color name="white">#FEFEFE</color>
+    <color name="underweight">#634D2E</color>
+    <color name="overweight">#7A3C36</color>
+    <color name="fit">#2B542D</color>
+    <color name="primaryColor">#D9FC86</color>
 </resources>
